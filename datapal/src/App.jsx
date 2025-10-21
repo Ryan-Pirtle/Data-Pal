@@ -1,28 +1,28 @@
 import { useState } from "react";
 import FileUpload from "./components/FileUpload";
-import QueryInput from "./components/QueryInput";
+// import QueryInput from "./components/QueryInput";
 import ResultsDisplay from "./components/ResultsDisplay";
 import ErrorBanner from "./components/ErrorBanner";
-import QueryChat from "./components/QueryChat"; // ✅ Import your chat component
+import QueryChat from "./components/QueryChat"; 
 
 function App() {
   const [dataset, setDataset] = useState(null);
-  const [results, setResults] = useState(null);
   const [error, setError] = useState(null);
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-3xl font-bold text-center mb-8">Data Pal</h1>
+      <h1 className="text-3xl font-bold">Data Pal</h1>
 
       {error && <ErrorBanner message={error} />}
 
-      {/* === Classic Upload + Query Form Section === */}
-      <div className="max-w-3xl mx-auto space-y-6 bg-white p-6 rounded-2xl shadow">
+      {/* ===  Upload Form Section === */}
+      <div className="max-w-3xl space-y-6 bg-white p-6 rounded-2xl shadow">
         <FileUpload onUploadSuccess={setDataset} onError={setError} />
         {dataset && (
-          <QueryInput onQueryResult={setResults} onError={setError} />
-        )}
-        {results && <ResultsDisplay results={results} />}
+          <p className="text-green-600 font-medium">
+            Dataset uploaded successfully.
+          </p>
+        ) }
       </div>
 
       {/* === Chat-style Query Interface === */}

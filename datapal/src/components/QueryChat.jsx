@@ -2,22 +2,16 @@ import React, { useState } from "react";
 import { Send } from "lucide-react";
 import { motion } from "framer-motion";
 
-interface Message {
-  role: "user" | "assistant";
-  content: string;
-}
-
 export default function QueryChat() {
-  const [messages, setMessages] = useState<Message[]>([]);
+  const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!input.trim()) return;
 
-    // Add user message to chat
-    const userMessage: Message = { role: "user", content: input };
+    const userMessage = { role: "user", content: input };
     setMessages((prev) => [...prev, userMessage]);
     setInput("");
     setLoading(true);
@@ -35,12 +29,12 @@ export default function QueryChat() {
       const responseText =
         data.results?.length > 0
           ? JSON.stringify(data.results, null, 2)
-          : "✅ Query executed successfully — no rows returned.";
+          : "Query executed successfully — no rows returned.";
 
-      const botMessage: Message = { role: "assistant", content: responseText };
+      const botMessage = { role: "assistant", content: responseText };
       setMessages((prev) => [...prev, botMessage]);
-    } catch (err: any) {
-      const botMessage: Message = {
+    } catch (err) {
+      const botMessage = {
         role: "assistant",
         content:
           err?.detail?.db_error ||
@@ -55,7 +49,6 @@ export default function QueryChat() {
 
   return (
     <div className="flex flex-col h-[80vh] max-w-3xl mx-auto border rounded-2xl shadow-md bg-white">
-      {/* Chat Messages */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {messages.map((msg, idx) => (
           <motion.div
@@ -76,7 +69,6 @@ export default function QueryChat() {
         )}
       </div>
 
-      {/* Input Form */}
       <form
         onSubmit={handleSubmit}
         className="flex items-center gap-2 p-3 border-t bg-gray-50"
