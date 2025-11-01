@@ -1,36 +1,40 @@
 import { useState } from "react";
 import FileUpload from "./components/FileUpload";
-// import QueryInput from "./components/QueryInput";
-import ResultsDisplay from "./components/ResultsDisplay";
 import ErrorBanner from "./components/ErrorBanner";
 import QueryChat from "./components/QueryChat"; 
+import SectionHeader from "./components/SectionHeader";
+
 
 function App() {
   const [dataset, setDataset] = useState(null);
   const [error, setError] = useState(null);
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-3xl font-bold">Data Pal</h1>
+    <div className="min-h-screen flex flex-col items-center justify-start bg-gray-100 py-10 px-4 space-y-10">
 
-      {error && <ErrorBanner message={error} />}
+      {error && (
+        <div className="w-full max-w-3xl">
+          <ErrorBanner message={error} />
+        </div>
+      )}
 
-      {/* ===  Upload Form Section === */}
-      <div className="max-w-3xl space-y-6 bg-white p-6 rounded-2xl shadow">
-        <FileUpload onUploadSuccess={setDataset} onError={setError} />
-        {dataset && (
-          <p className="text-green-600 font-medium">
-            Dataset uploaded successfully.
-          </p>
-        ) }
+      {/* === Chat Section === */}
+      <div className="w-full max-w-3xl bg-white p-6 rounded-2xl shadow-md">
+        <SectionHeader
+  title="Data Pal Chat"
+  subtitle="Chat naturally with your data and visualize insights instantly."
+/>
+        <QueryChat />
       </div>
 
-      {/* === Chat-style Query Interface === */}
-      <div className="max-w-3xl mx-auto mt-10 bg-white p-6 rounded-2xl shadow">
-        <h2 className="text-2xl font-semibold mb-4 text-center">
-          Data Pal Chat
-        </h2>
-        <QueryChat />
+      {/* === Upload Section === */}
+      <div className="w-full max-w-3xl bg-white p-6 rounded-2xl shadow-md">
+        <FileUpload onUploadSuccess={setDataset} onError={setError} />
+        {dataset && (
+          <p className="text-green-600 font-medium text-center mt-3">
+            Dataset uploaded successfully.
+          </p>
+        )}
       </div>
     </div>
   );
