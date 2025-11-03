@@ -12,6 +12,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Override Chatscope defaults so it respects parent sizing */
+.cs-main-container,
+.cs-chat-container {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+}
 
 a {
   font-weight: 500;

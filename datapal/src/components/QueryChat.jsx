@@ -21,25 +21,17 @@ export default function QueryChat() {
   const [isTyping, setIsTyping] = useState(false);
   const fileInputRef = useRef(null);
 
-  // --- File picker open handler
   const handleAttachClick = () => {
     console.log("Attach button clicked");
-
     if (fileInputRef.current) {
-      console.log("Opening file picker");
       fileInputRef.current.click();
     }
   };
 
-  // --- Send message to backend
   const handleSend = async (userMessage) => {
     if (!userMessage.trim()) return;
 
-    const newMessage = {
-      message: userMessage,
-      sender: "user",
-      direction: "outgoing",
-    };
+    const newMessage = { message: userMessage, sender: "user", direction: "outgoing" };
     const updatedMessages = [...messages, newMessage];
     setMessages(updatedMessages);
     setIsTyping(true);
@@ -52,10 +44,19 @@ export default function QueryChat() {
       });
 
       const data = await res.json();
-      const reply =
-        data.results?.length > 0
-          ? JSON.stringify(data.results, null, 2)
-          : "✅ Query executed successfully — no rows returned.";
+      let reply;
+
+      if (Array.isArray(data.results) && data.results.length > 0) {
+        reply = data.results
+          .map((obj) =>
+            Object.entries(obj)
+              .map(([key, value]) => `${key}: ${value}`)
+              .join("\n")
+          )
+          .join("\n\n");
+      } else {
+        reply = "✅ Query executed successfully — no rows returned.";
+      }
 
       setMessages([...updatedMessages, { message: reply, sender: "assistant", direction: "incoming" }]);
     } catch (error) {
@@ -68,10 +69,8 @@ export default function QueryChat() {
     }
   };
 
-  // --- File upload handler
   const handleFileUpload = async (file) => {
     if (!file) return;
-
     try {
       const formData = new FormData();
       formData.append("file", file);
@@ -97,68 +96,83 @@ export default function QueryChat() {
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 15 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
-      className="w-full h-[70vh] md:h-[75vh] max-w-3xl mx-auto border rounded-2xl shadow bg-white"
-    >
-      <MainContainer
-  style={{
-    borderRadius: "1rem",
-    height: "100%",
-    display: "flex",
-    flexDirection: "column",
-  }}
->
-  <ChatContainer>
-    <MessageList
-      typingIndicator={
-        isTyping ? <TypingIndicator content="Data Pal is thinking..." /> : null
-      }
-    >
-      {messages.map((msg, idx) => (
-        <Message key={idx} model={msg}>
-          <Message.CustomContent>
-            <pre
-              className={`text-sm md:text-base font-mono ${
-                msg.sender === "assistant" ? "text-gray-800" : "text-gray-900"
-              } whitespace-pre-wrap break-words overflow-auto max-w-full`}
-            >
-              {msg.message}
-            </pre>
-          </Message.CustomContent>
-        </Message>
-      ))}
-    </MessageList>
-
-    <MessageInput
-      placeholder="Ask a question about your data..."
-      onSend={handleSend}
-      attachButton={true}
-      onAttachClick={handleAttachClick}
-      style={{
-        borderTop: "1px solid #e5e7eb",
-        borderBottomLeftRadius: "1rem",
-        borderBottomRightRadius: "1rem",
-      }}
-    />
-  </ChatContainer>
-
-  {/* ✅ Moved outside ChatContainer */}
-  <input
-    ref={fileInputRef}
-    type="file"
-    accept=".csv"
-    style={{ display: "none" }}
-    onChange={(e) => {
-      const file = e.target.files?.[0];
-      if (file) handleFileUpload(file);
-      e.target.value = ""; // reset so same file can be reselected
+<div className="flex justify-center items-center h-screen">
+  <motion.div
+    initial={{ opacity: 0, y: 15 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.4 }}
+    className="border rounded-2xl shadow bg-white flex overflow-hidden"
+    style={{
+      width: "90vw",
+      height: "95vh",
+      maxWidth: "90vw",
+      maxHeight: "95vh",
+      marginLeft: "5vw"
     }}
-  />
-</MainContainer>
+  >
 
-    </motion.div>
+    <MainContainer
+      style={{
+        borderRadius: "1rem",
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        overflow: "hidden",
+      }}
+    >
+      <ChatContainer style={{ flexGrow: 1, overflow: "hidden" }}>
+        <MessageList
+          typingIndicator={
+            isTyping ? <TypingIndicator content="Data Pal is thinking..." /> : null
+          }
+          style={{
+            flexGrow: 1,
+            overflowY: "auto",
+            wordWrap: "break-word",
+          }}
+        >
+              {messages.map((msg, idx) => (
+                <Message key={idx} model={msg}>
+                  <Message.CustomContent>
+                    <pre
+                      className={`text-sm md:text-base font-mono ${
+                        msg.sender === "assistant" ? "text-gray-800" : "text-gray-900"
+                      } whitespace-pre-wrap break-words overflow-auto max-w-full`}
+                    >
+                      {msg.message}
+                    </pre>
+                  </Message.CustomContent>
+                </Message>
+              ))}
+            </MessageList>
+
+            <MessageInput
+          placeholder="Ask a question about your data..."
+          onSend={handleSend}
+          attachButton={true}
+          onAttachClick={handleAttachClick}
+          style={{
+            borderTop: "1px solid #e5e7eb",
+            borderBottomLeftRadius: "1rem",
+            borderBottomRightRadius: "1rem",
+          }}
+        />
+
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept=".csv"
+              style={{ display: "none" }}
+              onChange={(e) => {
+                const file = e.target.files?.[0];
+                if (file) handleFileUpload(file);
+                e.target.value = "";
+              }}
+            />
+          </ChatContainer>
+        </MainContainer>
+      </motion.div>
+    </div>
   );
 }
