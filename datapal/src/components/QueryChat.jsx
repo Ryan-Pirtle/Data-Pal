@@ -120,7 +120,8 @@ export default function QueryChat() {
       height: "95vh",
       maxWidth: "90vw",
       maxHeight: "95vh",
-      marginLeft: "5vw"
+      marginLeft: "5vw",
+      marginTop: "2.5vh"
     }}
   >
 
