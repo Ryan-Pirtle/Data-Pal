@@ -23,7 +23,9 @@ export default function QueryChat() {
 
   const handleAttachClick = () => {
     console.log("Attach button clicked");
+    console.log("fileInputRef current:", fileInputRef.current);
     if (fileInputRef.current) {
+      console.log("Triggering file input click");
       fileInputRef.current.click();
     }
   };
@@ -75,7 +77,7 @@ export default function QueryChat() {
       const formData = new FormData();
       formData.append("file", file);
 
-      const res = await fetch("http://localhost:8000/upload", {
+      const res = await fetch("http://localhost:8000/upload/", {
         method: "POST",
         body: formData,
       });
@@ -97,6 +99,17 @@ export default function QueryChat() {
 
   return (
 <div className="flex justify-center items-center h-screen">
+  <input
+              ref={fileInputRef}
+              type="file"
+              accept=".csv"
+              style={{ display: "none" }}
+              onChange={(e) => {
+                const file = e.target.files?.[0];
+                if (file) handleFileUpload(file);
+                e.target.value = "";
+              }}
+            />
   <motion.div
     initial={{ opacity: 0, y: 15 }}
     animate={{ opacity: 1, y: 0 }}
@@ -146,7 +159,7 @@ export default function QueryChat() {
                 </Message>
               ))}
             </MessageList>
-
+            
             <MessageInput
           placeholder="Ask a question about your data..."
           onSend={handleSend}
@@ -159,17 +172,7 @@ export default function QueryChat() {
           }}
         />
 
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept=".csv"
-              style={{ display: "none" }}
-              onChange={(e) => {
-                const file = e.target.files?.[0];
-                if (file) handleFileUpload(file);
-                e.target.value = "";
-              }}
-            />
+            
           </ChatContainer>
         </MainContainer>
       </motion.div>
