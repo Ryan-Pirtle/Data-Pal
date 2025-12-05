@@ -12,7 +12,7 @@ def clean_column_name(col: str) -> str:
     col = re.sub(r'[^0-9a-zA-Z_]', '_', col)
     col = re.sub(r'_+', '_', col)
     col = col.strip('_')
-    return col.lower()   # 👈 this ensures columns are lowercase
+    return col.lower()   
 
 
 @router.post("/")
