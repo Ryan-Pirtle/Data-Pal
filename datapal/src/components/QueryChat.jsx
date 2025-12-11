@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
+import TopBar from "./TopBar";
+
 
 import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css";
 import {

@@ -1,0 +1,301 @@
+order_id,date,product,category,unit_price,quantity,total_sales
+ORD1001,2024-11-23,Red T-Shirt,Apparel,7.88,3,23.64
+ORD1002,2024-05-05,Sandals,Footwear,21.05,1,21.05
+ORD1003,2024-12-12,Bluetooth Speaker,Electronics,107.6,1,107.6
+ORD1004,2024-10-29,Water Bottle,Home,8.66,1,8.66
+ORD1005,2024-04-21,Sandals,Footwear,63.12,1,63.12
+ORD1006,2024-10-14,Sandals,Footwear,87.34,6,524.04
+ORD1007,2024-10-06,Water Bottle,Home,30.35,5,151.75
+ORD1008,2024-05-22,Backpack,Accessories,104.97,2,209.94
+ORD1009,2024-12-23,Water Bottle,Home,44.13,2,88.26
+ORD1010,2024-04-20,Backpack,Accessories,43.71,1,43.71
+ORD1011,2024-07-13,Red T-Shirt,Apparel,46.28,3,138.84
+ORD1012,2024-11-05,Baseball Cap,Accessories,97.82,6,586.92
+ORD1013,2024-08-23,USB-C Cable,Electronics,19.36,4,77.44
+ORD1014,2024-02-10,USB-C Cable,Electronics,38.72,6,232.32
+ORD1015,2024-11-12,Hoodie,Apparel,104.1,5,520.5
+ORD1016,2024-04-08,Bluetooth Speaker,Electronics,13.0,6,78.0
+ORD1017,2024-04-26,Backpack,Accessories,38.28,1,38.28
+ORD1018,2024-04-29,Sunglasses,Accessories,16.62,3,49.86
+ORD1019,2024-08-20,Pen Pack,Stationery,100.92,2,201.84
+ORD1020,2024-07-08,Coffee Mug,Home,29.09,3,87.27
+ORD1021,2024-12-25,Hoodie,Apparel,83.61,1,83.61
+ORD1022,2024-11-07,Pen Pack,Stationery,24.68,6,148.08
+ORD1023,2024-05-05,Running Shoes,Footwear,58.16,3,174.48
+ORD1024,2024-11-23,Bluetooth Speaker,Electronics,69.05,6,414.3
+ORD1025,2024-06-15,Sunglasses,Accessories,93.36,1,93.36
+ORD1026,2024-04-27,Sunglasses,Accessories,8.69,3,26.07
+ORD1027,2024-07-24,Baseball Cap,Accessories,12.61,5,63.05
+ORD1028,2024-06-10,Sandals,Footwear,80.38,4,321.52
+ORD1029,2024-11-25,Wireless Mouse,Electronics,21.43,2,42.86
+ORD1030,2024-05-06,Bluetooth Speaker,Electronics,69.56,3,208.68
+ORD1031,2024-10-26,Water Bottle,Home,108.25,4,433.0
+ORD1032,2024-07-04,Sandals,Footwear,119.69,2,239.38
+ORD1033,2024-09-17,Wireless Mouse,Electronics,15.45,1,15.45
+ORD1034,2024-02-26,Running Shoes,Footwear,77.16,6,462.96
+ORD1035,2024-08-04,Notebook,Stationery,12.31,4,49.24
+ORD1036,2024-11-01,Wireless Mouse,Electronics,65.85,5,329.25
+ORD1037,2024-01-06,Pen Pack,Stationery,87.88,6,527.28
+ORD1038,2024-10-01,Backpack,Accessories,35.68,6,214.08
+ORD1039,2024-06-23,Red T-Shirt,Apparel,38.75,2,77.5
+ORD1040,2024-08-20,Blue T-Shirt,Apparel,114.69,6,688.14
+ORD1041,2024-05-14,USB-C Cable,Electronics,92.63,5,463.15
+ORD1042,2024-02-24,Sunglasses,Accessories,76.91,6,461.46
+ORD1043,2024-09-16,Notebook,Stationery,27.87,3,83.61
+ORD1044,2024-03-23,USB-C Cable,Electronics,114.65,5,573.25
+ORD1045,2024-01-01,Notebook,Stationery,42.28,1,42.28
+ORD1046,2024-02-27,Hoodie,Apparel,46.74,3,140.22
+ORD1047,2024-05-02,Blue T-Shirt,Apparel,32.7,5,163.5
+ORD1048,2024-02-10,Red T-Shirt,Apparel,89.17,1,89.17
+ORD1049,2024-09-29,Backpack,Accessories,19.46,6,116.76
+ORD1050,2024-08-31,USB-C Cable,Electronics,23.99,5,119.95
+ORD1051,2024-11-06,Water Bottle,Home,115.9,5,579.5
+ORD1052,2024-12-19,Sandals,Footwear,86.99,4,347.96
+ORD1053,2024-12-09,Pen Pack,Stationery,47.94,5,239.7
+ORD1054,2024-08-19,Red T-Shirt,Apparel,33.51,1,33.51
+ORD1055,2024-06-22,Blue T-Shirt,Apparel,72.66,2,145.32
+ORD1056,2024-10-28,Sandals,Footwear,5.83,6,34.98
+ORD1057,2024-11-19,Blue T-Shirt,Apparel,31.33,1,31.33
+ORD1058,2024-06-18,Red T-Shirt,Apparel,64.13,3,192.39
+ORD1059,2024-12-08,Wireless Mouse,Electronics,29.64,2,59.28
+ORD1060,2024-10-19,Notebook,Stationery,59.36,4,237.44
+ORD1061,2024-07-27,Sandals,Footwear,15.85,6,95.1
+ORD1062,2024-08-08,Coffee Mug,Home,53.71,4,214.84
+ORD1063,2024-01-28,Pen Pack,Stationery,80.15,6,480.9
+ORD1064,2024-02-20,Blue T-Shirt,Apparel,51.3,3,153.9
+ORD1065,2024-02-25,Sandals,Footwear,27.03,5,135.15
+ORD1066,2024-08-17,Running Shoes,Footwear,53.52,3,160.56
+ORD1067,2024-08-24,Sandals,Footwear,105.57,1,105.57
+ORD1068,2024-08-14,Backpack,Accessories,104.06,5,520.3
+ORD1069,2024-02-20,Blue T-Shirt,Apparel,80.0,5,400.0
+ORD1070,2024-01-08,Red T-Shirt,Apparel,111.53,2,223.06
+ORD1071,2024-03-26,Water Bottle,Home,60.85,2,121.7
+ORD1072,2024-07-24,Hoodie,Apparel,11.74,4,46.96
+ORD1073,2024-01-02,Water Bottle,Home,35.5,4,142.0
+ORD1074,2024-05-26,Water Bottle,Home,85.11,6,510.66
+ORD1075,2024-10-11,Pen Pack,Stationery,87.62,2,175.24
+ORD1076,2024-04-07,Baseball Cap,Accessories,30.04,1,30.04
+ORD1077,2024-10-23,Bluetooth Speaker,Electronics,67.35,6,404.1
+ORD1078,2024-06-09,Blue T-Shirt,Apparel,10.77,4,43.08
+ORD1079,2024-09-14,Hoodie,Apparel,103.06,2,206.12
+ORD1080,2024-01-30,USB-C Cable,Electronics,14.21,2,28.42
+ORD1081,2024-02-05,Notebook,Stationery,12.82,2,25.64
+ORD1082,2024-07-25,Red T-Shirt,Apparel,113.28,5,566.4
+ORD1083,2024-05-06,Notebook,Stationery,73.37,5,366.85
+ORD1084,2024-02-11,Water Bottle,Home,80.6,5,403.0
+ORD1085,2024-09-24,Coffee Mug,Home,112.49,2,224.98
+ORD1086,2024-12-08,Bluetooth Speaker,Electronics,41.13,3,123.39
+ORD1087,2024-07-21,Running Shoes,Footwear,82.24,3,246.72
+ORD1088,2024-08-22,Coffee Mug,Home,111.84,1,111.84
+ORD1089,2024-01-05,Wireless Mouse,Electronics,76.43,5,382.15
+ORD1090,2024-02-21,Red T-Shirt,Apparel,66.83,5,334.15
+ORD1091,2024-05-15,Running Shoes,Footwear,112.32,1,112.32
+ORD1092,2024-05-05,Coffee Mug,Home,37.77,4,151.08
+ORD1093,2024-10-05,Bluetooth Speaker,Electronics,39.79,6,238.74
+ORD1094,2024-09-27,Blue T-Shirt,Apparel,81.8,5,409.0
+ORD1095,2024-06-02,Hoodie,Apparel,81.29,2,162.58
+ORD1096,2024-05-15,Red T-Shirt,Apparel,107.32,6,643.92
+ORD1097,2024-10-10,Running Shoes,Footwear,36.32,5,181.6
+ORD1098,2024-04-17,Bluetooth Speaker,Electronics,44.43,6,266.58
+ORD1099,2024-11-20,Sunglasses,Accessories,35.36,4,141.44
+ORD1100,2024-05-08,Hoodie,Apparel,109.44,1,109.44
+ORD1101,2024-02-17,Pen Pack,Stationery,53.71,3,161.13
+ORD1102,2024-01-23,Blue T-Shirt,Apparel,43.36,2,86.72
+ORD1103,2024-11-22,Baseball Cap,Accessories,23.58,4,94.32
+ORD1104,2024-10-09,Bluetooth Speaker,Electronics,54.18,1,54.18
+ORD1105,2024-02-27,Red T-Shirt,Apparel,113.68,6,682.08
+ORD1106,2024-03-17,USB-C Cable,Electronics,9.14,3,27.42
+ORD1107,2024-10-25,USB-C Cable,Electronics,22.03,2,44.06
+ORD1108,2024-01-22,Baseball Cap,Accessories,46.93,1,46.93
+ORD1109,2024-07-02,Sandals,Footwear,83.44,6,500.64
+ORD1110,2024-02-22,Coffee Mug,Home,94.71,4,378.84
+ORD1111,2024-11-13,Bluetooth Speaker,Electronics,22.77,2,45.54
+ORD1112,2024-03-24,Backpack,Accessories,98.24,4,392.96
+ORD1113,2024-01-13,Running Shoes,Footwear,89.7,3,269.1
+ORD1114,2024-07-29,Backpack,Accessories,82.04,6,492.24
+ORD1115,2024-05-07,Baseball Cap,Accessories,23.31,6,139.86
+ORD1116,2024-02-25,Water Bottle,Home,105.3,4,421.2
+ORD1117,2024-04-23,Sandals,Footwear,98.91,4,395.64
+ORD1118,2024-06-28,Baseball Cap,Accessories,99.36,2,198.72
+ORD1119,2024-04-24,Blue T-Shirt,Apparel,80.9,4,323.6
+ORD1120,2024-06-17,Baseball Cap,Accessories,104.4,3,313.2
+ORD1121,2024-06-28,Pen Pack,Stationery,63.58,6,381.48
+ORD1122,2024-10-01,Coffee Mug,Home,113.01,1,113.01
+ORD1123,2024-05-13,Running Shoes,Footwear,71.77,3,215.31
+ORD1124,2024-01-20,Red T-Shirt,Apparel,73.61,3,220.83
+ORD1125,2024-06-09,Water Bottle,Home,74.71,5,373.55
+ORD1126,2024-02-29,Water Bottle,Home,108.44,2,216.88
+ORD1127,2024-05-10,Blue T-Shirt,Apparel,86.51,1,86.51
+ORD1128,2024-09-23,Hoodie,Apparel,97.75,6,586.5
+ORD1129,2024-12-09,Sandals,Footwear,46.89,1,46.89
+ORD1130,2024-12-06,Hoodie,Apparel,42.97,3,128.91
+ORD1131,2024-12-05,Sunglasses,Accessories,19.33,3,57.99
+ORD1132,2024-09-16,Baseball Cap,Accessories,81.69,3,245.07
+ORD1133,2024-07-25,Bluetooth Speaker,Electronics,39.0,2,78.0
+ORD1134,2024-04-08,Water Bottle,Home,81.47,4,325.88
+ORD1135,2024-12-12,Bluetooth Speaker,Electronics,108.82,5,544.1
+ORD1136,2024-10-18,Baseball Cap,Accessories,51.7,1,51.7
+ORD1137,2024-06-04,Baseball Cap,Accessories,29.17,5,145.85
+ORD1138,2024-11-06,Pen Pack,Stationery,42.06,4,168.24
+ORD1139,2024-08-14,Pen Pack,Stationery,29.58,4,118.32
+ORD1140,2024-03-27,Pen Pack,Stationery,14.75,5,73.75
+ORD1141,2024-12-05,Pen Pack,Stationery,76.21,1,76.21
+ORD1142,2024-04-30,Pen Pack,Stationery,40.7,2,81.4
+ORD1143,2024-03-16,Blue T-Shirt,Apparel,10.31,4,41.24
+ORD1144,2024-11-08,Sunglasses,Accessories,93.38,4,373.52
+ORD1145,2024-07-31,Hoodie,Apparel,77.42,2,154.84
+ORD1146,2024-12-22,Water Bottle,Home,61.85,2,123.7
+ORD1147,2024-03-16,Pen Pack,Stationery,84.08,1,84.08
+ORD1148,2024-08-05,Sandals,Footwear,25.23,6,151.38
+ORD1149,2024-09-22,Wireless Mouse,Electronics,10.78,2,21.56
+ORD1150,2024-03-03,Wireless Mouse,Electronics,20.33,4,81.32
+ORD1151,2024-12-07,USB-C Cable,Electronics,118.61,5,593.05
+ORD1152,2024-06-11,Backpack,Accessories,107.51,5,537.55
+ORD1153,2024-09-15,Water Bottle,Home,100.52,5,502.6
+ORD1154,2024-08-16,Hoodie,Apparel,23.3,4,93.2
+ORD1155,2024-08-18,Baseball Cap,Accessories,91.45,6,548.7
+ORD1156,2024-05-21,Backpack,Accessories,94.43,4,377.72
+ORD1157,2024-11-16,Sandals,Footwear,36.58,1,36.58
+ORD1158,2024-05-26,Sandals,Footwear,36.25,3,108.75
+ORD1159,2024-10-03,Red T-Shirt,Apparel,20.91,2,41.82
+ORD1160,2024-07-15,Bluetooth Speaker,Electronics,22.57,2,45.14
+ORD1161,2024-02-02,Water Bottle,Home,51.87,5,259.35
+ORD1162,2024-08-26,Water Bottle,Home,12.16,4,48.64
+ORD1163,2024-07-18,Hoodie,Apparel,93.53,6,561.18
+ORD1164,2024-01-11,Sunglasses,Accessories,106.28,5,531.4
+ORD1165,2024-07-13,Wireless Mouse,Electronics,5.68,3,17.04
+ORD1166,2024-06-01,Backpack,Accessories,49.85,4,199.4
+ORD1167,2024-10-02,Bluetooth Speaker,Electronics,89.48,5,447.4
+ORD1168,2024-04-22,Wireless Mouse,Electronics,30.23,4,120.92
+ORD1169,2024-09-05,Blue T-Shirt,Apparel,49.72,6,298.32
+ORD1170,2024-12-13,Backpack,Accessories,51.5,2,103.0
+ORD1171,2024-08-27,Hoodie,Apparel,19.68,5,98.4
+ORD1172,2024-09-30,Blue T-Shirt,Apparel,109.3,5,546.5
+ORD1173,2024-10-15,Pen Pack,Stationery,8.12,6,48.72
+ORD1174,2024-08-07,Running Shoes,Footwear,104.69,2,209.38
+ORD1175,2024-01-26,Baseball Cap,Accessories,48.6,2,97.2
+ORD1176,2024-08-20,Coffee Mug,Home,43.81,4,175.24
+ORD1177,2024-05-22,Backpack,Accessories,114.39,4,457.56
+ORD1178,2024-05-09,Sunglasses,Accessories,14.42,1,14.42
+ORD1179,2024-10-03,Blue T-Shirt,Apparel,119.99,3,359.97
+ORD1180,2024-04-24,Pen Pack,Stationery,12.89,6,77.34
+ORD1181,2024-01-21,Backpack,Accessories,8.57,2,17.14
+ORD1182,2024-04-12,Sunglasses,Accessories,7.34,2,14.68
+ORD1183,2024-05-02,Running Shoes,Footwear,59.46,1,59.46
+ORD1184,2024-10-15,Sandals,Footwear,58.48,3,175.44
+ORD1185,2024-07-07,Running Shoes,Footwear,74.68,6,448.08
+ORD1186,2024-02-28,Backpack,Accessories,99.22,3,297.66
+ORD1187,2024-02-25,Notebook,Stationery,7.95,3,23.85
+ORD1188,2024-10-21,Pen Pack,Stationery,109.42,4,437.68
+ORD1189,2024-07-22,Bluetooth Speaker,Electronics,27.81,5,139.05
+ORD1190,2024-12-19,Sunglasses,Accessories,77.13,1,77.13
+ORD1191,2024-12-22,Backpack,Accessories,39.68,6,238.08
+ORD1192,2024-11-03,Backpack,Accessories,18.92,5,94.6
+ORD1193,2024-01-22,Coffee Mug,Home,66.27,6,397.62
+ORD1194,2024-07-08,Red T-Shirt,Apparel,63.19,3,189.57
+ORD1195,2024-01-07,Sunglasses,Accessories,53.31,4,213.24
+ORD1196,2024-02-24,Water Bottle,Home,115.49,6,692.94
+ORD1197,2024-08-23,Bluetooth Speaker,Electronics,22.59,2,45.18
+ORD1198,2024-09-24,Pen Pack,Stationery,36.06,5,180.3
+ORD1199,2024-09-04,Wireless Mouse,Electronics,55.09,6,330.54
+ORD1200,2024-10-30,Baseball Cap,Accessories,42.07,2,84.14
+ORD1201,2024-02-14,Baseball Cap,Accessories,106.39,2,212.78
+ORD1202,2024-08-25,Notebook,Stationery,75.19,4,300.76
+ORD1203,2024-06-21,Blue T-Shirt,Apparel,61.85,3,185.55
+ORD1204,2024-04-03,Wireless Mouse,Electronics,29.39,3,88.17
+ORD1205,2024-06-23,Baseball Cap,Accessories,106.24,6,637.44
+ORD1206,2024-05-21,USB-C Cable,Electronics,6.17,2,12.34
+ORD1207,2024-02-13,Sandals,Footwear,87.81,4,351.24
+ORD1208,2024-10-11,Backpack,Accessories,32.64,4,130.56
+ORD1209,2024-11-26,Bluetooth Speaker,Electronics,61.44,1,61.44
+ORD1210,2024-02-17,Baseball Cap,Accessories,30.48,6,182.88
+ORD1211,2024-05-04,Baseball Cap,Accessories,81.36,3,244.08
+ORD1212,2024-08-30,USB-C Cable,Electronics,66.06,4,264.24
+ORD1213,2024-10-08,Coffee Mug,Home,45.46,4,181.84
+ORD1214,2024-05-18,Baseball Cap,Accessories,33.91,1,33.91
+ORD1215,2024-04-08,Coffee Mug,Home,18.75,5,93.75
+ORD1216,2024-12-19,Running Shoes,Footwear,27.03,6,162.18
+ORD1217,2024-09-04,Baseball Cap,Accessories,88.33,5,441.65
+ORD1218,2024-11-01,Baseball Cap,Accessories,117.76,2,235.52
+ORD1219,2024-05-31,Sandals,Footwear,46.5,3,139.5
+ORD1220,2024-01-08,Bluetooth Speaker,Electronics,66.43,3,199.29
+ORD1221,2024-01-24,Blue T-Shirt,Apparel,68.64,6,411.84
+ORD1222,2024-03-05,Pen Pack,Stationery,104.87,4,419.48
+ORD1223,2024-02-22,Sunglasses,Accessories,6.41,3,19.23
+ORD1224,2024-08-28,Wireless Mouse,Electronics,55.65,2,111.3
+ORD1225,2024-01-27,Baseball Cap,Accessories,113.22,4,452.88
+ORD1226,2024-02-28,Sunglasses,Accessories,12.51,4,50.04
+ORD1227,2024-02-07,Notebook,Stationery,77.39,1,77.39
+ORD1228,2024-03-18,Running Shoes,Footwear,98.28,3,294.84
+ORD1229,2024-02-13,Sandals,Footwear,18.62,4,74.48
+ORD1230,2024-11-06,Notebook,Stationery,95.94,2,191.88
+ORD1231,2024-09-24,Water Bottle,Home,56.81,4,227.24
+ORD1232,2024-06-01,Sunglasses,Accessories,72.68,4,290.72
+ORD1233,2024-06-05,Notebook,Stationery,76.42,5,382.1
+ORD1234,2024-02-20,Backpack,Accessories,28.9,2,57.8
+ORD1235,2024-05-15,Pen Pack,Stationery,14.34,2,28.68
+ORD1236,2024-03-29,USB-C Cable,Electronics,13.63,1,13.63
+ORD1237,2024-07-28,Wireless Mouse,Electronics,84.28,4,337.12
+ORD1238,2024-05-29,Blue T-Shirt,Apparel,31.62,6,189.72
+ORD1239,2024-05-24,Bluetooth Speaker,Electronics,103.85,1,103.85
+ORD1240,2024-12-17,Sandals,Footwear,111.25,6,667.5
+ORD1241,2024-10-28,Pen Pack,Stationery,97.45,2,194.9
+ORD1242,2024-08-05,Red T-Shirt,Apparel,67.62,6,405.72
+ORD1243,2024-03-17,Hoodie,Apparel,35.55,2,71.1
+ORD1244,2024-02-06,Blue T-Shirt,Apparel,24.08,3,72.24
+ORD1245,2024-10-31,Bluetooth Speaker,Electronics,99.79,3,299.37
+ORD1246,2024-08-12,Red T-Shirt,Apparel,58.9,3,176.7
+ORD1247,2024-12-24,Water Bottle,Home,113.41,5,567.05
+ORD1248,2024-10-03,Wireless Mouse,Electronics,55.34,5,276.7
+ORD1249,2024-01-21,Hoodie,Apparel,54.68,3,164.04
+ORD1250,2024-11-05,Baseball Cap,Accessories,7.97,2,15.94
+ORD1251,2024-12-11,Sunglasses,Accessories,103.96,5,519.8
+ORD1252,2024-01-11,Backpack,Accessories,82.31,3,246.93
+ORD1253,2024-10-22,Blue T-Shirt,Apparel,92.76,2,185.52
+ORD1254,2024-08-28,USB-C Cable,Electronics,79.92,3,239.76
+ORD1255,2024-04-02,Notebook,Stationery,55.13,4,220.52
+ORD1256,2024-02-16,Wireless Mouse,Electronics,45.02,3,135.06
+ORD1257,2024-06-13,Pen Pack,Stationery,17.03,2,34.06
+ORD1258,2024-06-17,Water Bottle,Home,84.77,3,254.31
+ORD1259,2024-12-05,Water Bottle,Home,98.56,5,492.8
+ORD1260,2024-01-19,Wireless Mouse,Electronics,15.13,3,45.39
+ORD1261,2024-06-14,Red T-Shirt,Apparel,116.57,4,466.28
+ORD1262,2024-09-20,Sunglasses,Accessories,118.63,6,711.78
+ORD1263,2024-10-04,Wireless Mouse,Electronics,52.52,2,105.04
+ORD1264,2024-09-22,Coffee Mug,Home,76.6,4,306.4
+ORD1265,2024-11-16,Wireless Mouse,Electronics,92.4,2,184.8
+ORD1266,2024-05-16,USB-C Cable,Electronics,20.07,3,60.21
+ORD1267,2024-08-12,Hoodie,Apparel,85.3,1,85.3
+ORD1268,2024-01-15,Pen Pack,Stationery,75.02,2,150.04
+ORD1269,2024-12-29,Running Shoes,Footwear,40.74,1,40.74
+ORD1270,2024-10-09,Water Bottle,Home,15.72,1,15.72
+ORD1271,2024-08-24,Red T-Shirt,Apparel,79.49,2,158.98
+ORD1272,2024-09-12,Hoodie,Apparel,87.41,5,437.05
+ORD1273,2024-12-27,Baseball Cap,Accessories,52.78,4,211.12
+ORD1274,2024-08-29,Sandals,Footwear,57.53,2,115.06
+ORD1275,2024-07-15,Sandals,Footwear,111.01,5,555.05
+ORD1276,2024-03-10,Sunglasses,Accessories,13.03,4,52.12
+ORD1277,2024-06-23,Hoodie,Apparel,95.59,3,286.77
+ORD1278,2024-01-02,Baseball Cap,Accessories,88.5,5,442.5
+ORD1279,2024-10-23,Pen Pack,Stationery,61.31,2,122.62
+ORD1280,2024-08-16,USB-C Cable,Electronics,60.7,3,182.1
+ORD1281,2024-10-09,Backpack,Accessories,67.49,4,269.96
+ORD1282,2024-06-13,Sunglasses,Accessories,26.7,6,160.2
+ORD1283,2024-05-02,Notebook,Stationery,49.04,4,196.16
+ORD1284,2024-01-23,Coffee Mug,Home,90.64,6,543.84
+ORD1285,2024-07-14,Water Bottle,Home,118.67,6,712.02
+ORD1286,2024-03-18,Wireless Mouse,Electronics,115.95,2,231.9
+ORD1287,2024-09-14,Notebook,Stationery,43.18,1,43.18
+ORD1288,2024-08-13,Red T-Shirt,Apparel,65.48,4,261.92
+ORD1289,2024-01-08,Bluetooth Speaker,Electronics,21.58,6,129.48
+ORD1290,2024-03-20,Red T-Shirt,Apparel,58.99,3,176.97
+ORD1291,2024-06-22,Notebook,Stationery,84.66,6,507.96
+ORD1292,2024-02-11,Sunglasses,Accessories,42.79,6,256.74
+ORD1293,2024-09-30,Water Bottle,Home,114.73,6,688.38
+ORD1294,2024-09-06,Sunglasses,Accessories,67.22,5,336.1
+ORD1295,2024-02-05,Sandals,Footwear,77.58,3,232.74
+ORD1296,2024-04-26,Bluetooth Speaker,Electronics,15.39,1,15.39
+ORD1297,2024-11-20,Bluetooth Speaker,Electronics,105.35,4,421.4
+ORD1298,2024-03-26,Bluetooth Speaker,Electronics,39.44,1,39.44
+ORD1299,2024-01-24,Coffee Mug,Home,96.56,3,289.68
+ORD1300,2024-07-02,Coffee Mug,Home,54.53,2,109.06
